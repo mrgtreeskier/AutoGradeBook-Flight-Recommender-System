@@ -6,14 +6,23 @@ The Air Force’s Pilot Training Next (PTN) program seeks a more efficient pilot
 
 # Files 
 1. Thesis Document(Forrest_Thesis) - full document of thesis research to include motivation, literature review, modeling approach, results, and proposed future work.
-2. Thesis Defense Slides - final powerpoint presentation for thesis defense with notes on each slide. 
-3. Data - Grade sheets from the first PTN graduating class. 
+2. Thesis Defense Slides(ThesisDefenseSlides-notes) - final powerpoint presentation for thesis defense with notes on each slide. 
+3. Initial Data(PTN_raw_data_clean) - Grade sheets from the first PTN graduating class. 
 4. Research Summary Poster(Research_Poster) - Poster outlining all research. 
+
 
 # Jupyter Notebooks
 
-1. Initial data cleaning
-2. Exploratory Data analysis
-3. Model training 
-4. Model time trials
-5. Final Recommender system
+1. Initial data cleaning (DataCleanUp_PTNdata1.ipynb)
+2. Exploratory Data analysis (EDA_PTNdata1.ipynb)
+3. Model training (LOOCV_ModelTraining_PTNdata1.ipynb)
+4. Model time trials (final_time_trials.ipynb)
+5. Final Recommender system (final_model.ipynb)
+
+# Model Parameters
+final, best-fit model weights for LSTM model (final_model.h5) - these were generated in the Model Training Jupyter Notebook
+
+# Other data files
+PTNdata1_clean.ipynb - 
+PTNdata1_final.ipynb - 
+PTNdata1_master.ipynb - 
