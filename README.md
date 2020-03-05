@@ -20,9 +20,9 @@ The Air Force’s Pilot Training Next (PTN) program seeks a more efficient pilot
 5. Final Recommender system (final_model.ipynb)
 
 # Model Parameters
-final, best-fit model weights for LSTM model (final_model.h5) - these were generated in the Model Training Jupyter Notebook
+final best-fit model weights for LSTM model (final_model.h5) - these were generated in the Model Training Jupyter Notebook
 
 # Other data files
-PTNdata1_clean.ipynb - 
-PTNdata1_final.ipynb - 
-PTNdata1_master.ipynb - 
+PTNdata1_clean.ipynb - created from DataCleanUp_PTNdata1.ipynb
+PTNdata1_mif.ipynb - grades converted to fraction of maximum score necessary for proficiency
+PTNdata1_master.ipynb - grades converted to points system, Total MIF and FPS calculated at every record. 
